@@ -1,0 +1,40 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;500;600;700;900&family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Login Page Style */
+@import url("./login-page.css");
+
+/* Users Page Style */
+@import url("./users.css");
+
+/* Job Search Page Style */
+@import url("./job-search.css");
+
+/* Rols Page Style */
+@import url("./rols.css");
+
+/* New Users Style */
+@import url("./new-users.css");
+
+/* See Users Style */
+@import url("./see-users.css");
+
+/* Settings page Style */
+@import url("./settings.css");
+
+
+
+
+/* global Style */
+html {
+  direction: ltr;
+}
+body {
+  font-family: "Noto Kufi Arabic", sans-serif;
+}
+
+:root {
+  --main-titles-size: 2.5rem;
+  --main-p-size:14px
+}
+

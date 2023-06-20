@@ -1,0 +1,894 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- BootStrap  -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <!-- Style Link -->
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- Style Ltr -->
+    <!-- <link rel="stylesheet" href="../css_ltr/style.css"> -->
+
+    <!-- Title Icon -->
+    <link rel="icon" href="../img/fav_title.svg" />
+    <title>الاعدادات</title>
+  </head>
+  <body class="users-body-bg body">
+    <!-- Start Nav Bar -->
+    <nav class="navbar navbar-expand-md">
+      <div class="container-fluid">
+        <div class="nav-right">
+          <a class="navbar-brand" href="#"
+            ><img src="../img/users-page/logo-w.png" alt="logo"
+          /></a>
+          <a class="nav-link visit-site" href="#">زيارة الموقع</a>
+        </div>
+        <div class="nav-left">
+          <ul class="navbar-nav">
+            <!-- Notifaction -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link notification"
+                href="#"
+                id="noti"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img
+                  class="nottifications-icon"
+                  src="../img/users-page/nottifications.png"
+                  alt="nottifications-icon"
+                />
+                <span class="noti-number">15</span>
+              </a>
+              <ul class="dropdown-menu notification" aria-labelledby="noti">
+                <li>
+                  <span class="time">2m</span>
+                  <div class="notif-deta">
+                    <p class="p-one">Ibrahim like you file</p>
+                    <p class="p-tow"><span>01</span>file home</p>
+                  </div>
+                  <img
+                    class="profile-img"
+                    src="../img/users-page/profile-img-2.png"
+                    alt="profile-img"
+                  />
+                </li>
+                <li>
+                  <span class="time">2m</span>
+                  <div class="notif-deta">
+                    <p class="p-one">Ibrahim like you file</p>
+                    <p class="p-tow"><span>01</span>file home</p>
+                  </div>
+                  <img
+                    class="profile-img"
+                    src="../img/users-page/profile-img.png"
+                    alt="profile-img"
+                  />
+                </li>
+                <li>
+                  <span class="time">2m</span>
+                  <div class="notif-deta">
+                    <p class="p-one">Ibrahim like you file</p>
+                    <p class="p-tow"><span>01</span>file home</p>
+                  </div>
+                  <img
+                    class="profile-img"
+                    src="../img/users-page/profile-img-2.png"
+                    alt="profile-img"
+                  />
+                </li>
+                <li>
+                  <span class="time">2m</span>
+                  <div class="notif-deta">
+                    <p class="p-one">Ibrahim like you file</p>
+                    <p class="p-tow"><span>01</span>file home</p>
+                  </div>
+                  <img
+                    class="profile-img"
+                    src="../img/users-page/profile-img.png"
+                    alt="profile-img"
+                  />
+                </li>
+              </ul>
+            </li>
+
+            <!-- Adminestrator -->
+            <li class="nav-item dropdown adminestrator">
+              <a
+                class="nav-link dropdown-toggle adminestrator-a"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img
+                  class="admin-icon"
+                  src="../img/users-page/user-icon.png"
+                  alt="user-icon"
+                />
+                Adminestrator
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">User</a></li>
+                <li><a class="dropdown-item" href="#">Admin</a></li>
+              </ul>
+            </li>
+
+            <!-- Lang -->
+            <li class="nav-item dropdown lang">
+              <a
+                class="nav-link dropdown-toggle lang-l"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                اللغة
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">AR</a></li>
+                <li><a class="dropdown-item" href="#">EN</a></li>
+              </ul>
+            </li>
+
+            <!-- Exit -->
+            <a class="nav-link exit" href="#">
+              تسجيل الخروج
+              <img src="../img/users-page/exit-arrow.png" alt="exit" />
+            </a>
+          </ul>
+        </div>
+        <div class="nav-toggler">
+          <img src="../img/users-page/toggler.png" alt="toggler" />
+        </div>
+      </div>
+    </nav>
+    <!-- End Nav Bar -->
+
+    <!-- Start Page Content -->
+    <main class="users-page-content">
+      <aside class="aside">
+        <img src="../img/users-page/close.png" alt="close" class="close" />
+        <h4>
+          <img src="../img/users-page/home.png" alt="main menu" />
+          القائمة الرئيسية
+        </h4>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="false"
+                aria-controls="collapseOne"
+              >
+                <img
+                  class="accordion-icon-normal"
+                  src="../img/users-page/users.png"
+                  alt="accordion-icon"
+                />
+                <img
+                  class="accordion-icon-active"
+                  src="../img/users-page/users-active.png"
+                  alt="accordion-icon"
+                />
+                <h5>المستخدمين</h5>
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <h4 class="ac-title">
+                  <img src="../img//users-page/main-data.png" alt="main-data" />
+                  بيانات اساسية
+                </h4>
+                <ul class="list-unstyled">
+                  <li><a href="#">بيانات 1</a></li>
+                  <li><a href="#">بيانات 2</a></li>
+                </ul>
+                <h4 class="ac-title">
+                  <img
+                    src="../img//users-page/transactions.png"
+                    alt="transactions"
+                  />
+                  المعاملات
+                </h4>
+
+                <ul class="list-unstyled">
+                  <li><a href="#">معاملات 1</a></li>
+                  <li><a href="#">معاملات 2</a></li>
+                </ul>
+                <h4 class="ac-title">
+                  <img src="../img//users-page/reports.png" alt="reports" />
+                  التقارير
+                </h4>
+                <ul class="list-unstyled">
+                  <li><a href="#">تقارير 1</a></li>
+                  <li><a href="#">تقارير 2</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#2"
+                aria-expanded="false"
+                aria-controls="2"
+              >
+                <img
+                  class="accordion-icon-normal"
+                  src="../img/users-page/roles.png"
+                  alt="accordion-icon"
+                />
+                <img
+                  class="accordion-icon-active"
+                  src="../img/users-page/roles-active.png"
+                  alt="accordion-icon"
+                />
+                <h5>الأدوار</h5>
+              </button>
+            </h2>
+            <div
+              id="2"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <h4 class="ac-title">
+                  <img src="../img//users-page/main-data.png" alt="main-data" />
+                  بيانات اساسية
+                </h4>
+                <ul class="list-unstyled">
+                  <li><a href="#">بيانات 1</a></li>
+                  <li><a href="#">بيانات 2</a></li>
+                </ul>
+                <h4 class="ac-title">
+                  <img
+                    src="../img//users-page/transactions.png"
+                    alt="transactions"
+                  />
+                  المعاملات
+                </h4>
+
+                <ul class="list-unstyled">
+                  <li><a href="#">معاملات 1</a></li>
+                  <li><a href="#">معاملات 2</a></li>
+                </ul>
+                <h4 class="ac-title">
+                  <img src="../img//users-page/reports.png" alt="reports" />
+                  التقارير
+                </h4>
+                <ul class="list-unstyled">
+                  <li><a href="#">تقارير 1</a></li>
+                  <li><a href="#">تقارير 2</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#three"
+                aria-expanded="false"
+                aria-controls="three"
+              >
+                <img
+                  class="accordion-icon-normal"
+                  src="../img/users-page/grops.png"
+                  alt="accordion-icon"
+                />
+                <img
+                  class="accordion-icon-active"
+                  src="../img/users-page/grops-active.png"
+                  alt="accordion-icon"
+                />
+                <h5>المجموعات</h5>
+              </button>
+            </h2>
+            <div
+              id="three"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <h4 class="ac-title">
+                  <img src="../img//users-page/main-data.png" alt="main-data" />
+                  بيانات اساسية
+                </h4>
+                <ul class="list-unstyled">
+                  <li><a href="#">بيانات 1</a></li>
+                  <li><a href="#">بيانات 2</a></li>
+                </ul>
+                <h4 class="ac-title">
+                  <img
+                    src="../img//users-page/transactions.png"
+                    alt="transactions"
+                  />
+                  المعاملات
+                </h4>
+
+                <ul class="list-unstyled">
+                  <li><a href="#">معاملات 1</a></li>
+                  <li><a href="#">معاملات 2</a></li>
+                </ul>
+                <h4 class="ac-title">
+                  <img src="../img//users-page/reports.png" alt="reports" />
+                  التقارير
+                </h4>
+                <ul class="list-unstyled">
+                  <li><a href="#">تقارير 1</a></li>
+                  <li><a href="#">تقارير 2</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#four"
+                aria-expanded="false"
+                aria-controls="four"
+              >
+                <img
+                  class="accordion-icon-normal"
+                  src="../img/users-page/system-screen.png"
+                  alt="accordion-icon"
+                />
+                <img
+                  class="accordion-icon-active"
+                  src="../img/users-page/system-screen-active.png"
+                  alt="accordion-icon"
+                />
+                <h5>شاشات النظام</h5>
+              </button>
+            </h2>
+            <div
+              id="four"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <h4 class="ac-title">
+                  <img src="../img//users-page/main-data.png" alt="main-data" />
+                  بيانات اساسية
+                </h4>
+                <ul class="list-unstyled">
+                  <li><a href="#">بيانات 1</a></li>
+                  <li><a href="#">بيانات 2</a></li>
+                </ul>
+                <h4 class="ac-title">
+                  <img
+                    src="../img//users-page/transactions.png"
+                    alt="transactions"
+                  />
+                  المعاملات
+                </h4>
+
+                <ul class="list-unstyled">
+                  <li><a href="#">معاملات 1</a></li>
+                  <li><a href="#">معاملات 2</a></li>
+                </ul>
+                <h4 class="ac-title">
+                  <img src="../img//users-page/reports.png" alt="reports" />
+                  التقارير
+                </h4>
+                <ul class="list-unstyled">
+                  <li><a href="#">تقارير 1</a></li>
+                  <li><a href="#">تقارير 2</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#five"
+                aria-expanded="false"
+                aria-controls="five"
+              >
+                <img
+                  class="accordion-icon-normal"
+                  src="../img/users-page/track-users.png"
+                  alt="accordion-icon"
+                />
+                <img
+                  class="accordion-icon-active"
+                  src="../img/users-page/track-users-active.png"
+                  alt="accordion-icon"
+                />
+                <h5>تتبع المستخدمين</h5>
+              </button>
+            </h2>
+            <div
+              id="five"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <h4 class="ac-title">
+                  <img src="../img//users-page/main-data.png" alt="main-data" />
+                  بيانات اساسية
+                </h4>
+                <ul class="list-unstyled">
+                  <li><a href="#">بيانات 1</a></li>
+                  <li><a href="#">بيانات 2</a></li>
+                </ul>
+                <h4 class="ac-title">
+                  <img
+                    src="../img//users-page/transactions.png"
+                    alt="transactions"
+                  />
+                  المعاملات
+                </h4>
+
+                <ul class="list-unstyled">
+                  <li><a href="#">معاملات 1</a></li>
+                  <li><a href="#">معاملات 2</a></li>
+                </ul>
+                <h4 class="ac-title">
+                  <img src="../img//users-page/reports.png" alt="reports" />
+                  التقارير
+                </h4>
+                <ul class="list-unstyled">
+                  <li><a href="#">تقارير 1</a></li>
+                  <li><a href="#">تقارير 2</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#six"
+                aria-expanded="false"
+                aria-controls="six"
+              >
+                <img
+                  class="accordion-icon-normal"
+                  src="../img/users-page/salse.png"
+                  alt="accordion-icon"
+                />
+                <img
+                  class="accordion-icon-active"
+                  src="../img/users-page/salse-active.png"
+                  alt="accordion-icon"
+                />
+                <h5>المبيعات</h5>
+              </button>
+            </h2>
+            <div
+              id="six"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <h4 class="ac-title">
+                  <img src="../img//users-page/main-data.png" alt="main-data" />
+                  بيانات اساسية
+                </h4>
+                <ul class="list-unstyled">
+                  <li><a href="#">بيانات 1</a></li>
+                  <li><a href="#">بيانات 2</a></li>
+                </ul>
+                <h4 class="ac-title">
+                  <img
+                    src="../img//users-page/transactions.png"
+                    alt="transactions"
+                  />
+                  المعاملات
+                </h4>
+
+                <ul class="list-unstyled">
+                  <li><a href="#">معاملات 1</a></li>
+                  <li><a href="#">معاملات 2</a></li>
+                </ul>
+                <h4 class="ac-title">
+                  <img src="../img//users-page/reports.png" alt="reports" />
+                  التقارير
+                </h4>
+                <ul class="list-unstyled">
+                  <li><a href="#">تقارير 1</a></li>
+                  <li><a href="#">تقارير 2</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="show-mobile">
+          <!-- Adminestrator -->
+          <li class="nav-item dropdown adminestrator">
+            <a
+              class="nav-link dropdown-toggle adminestrator-a"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                class="admin-icon"
+                src="../img/users-page/user-icon.png"
+                alt="user-icon"
+              />
+              <img
+                class="admin-icon-mobile"
+                src="../img/users-page/admi-mobile.png"
+                alt="user-icon"
+              />
+              Adminestrator
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">User</a></li>
+              <li><a class="dropdown-item" href="#">Admin</a></li>
+            </ul>
+          </li>
+
+          <!-- Lang -->
+          <li class="nav-item dropdown lang">
+            <a
+              class="nav-link dropdown-toggle lang-l"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                src="../img/users-page/lang-icon.png"
+                alt="lang-icon"
+                class="lang-icon"
+              />
+              اللغة
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">AR</a></li>
+              <li><a class="dropdown-item" href="#">EN</a></li>
+            </ul>
+          </li>
+
+          <!-- Exit -->
+          <a class="nav-link exit" href="#">
+            تسجيل الخروج
+            <img
+              class="sign-out-web"
+              src="../img/users-page/exit-arrow.png"
+              alt="exit"
+            />
+            <img
+              class="sign-out-moblie"
+              src="../img/users-page/sign-out-moblie.svg"
+              alt="exit"
+            />
+          </a>
+        </div>
+      </aside>
+      <!-- Start user Content -->
+      <section class="users-content">
+        <div class="links">
+          <ul class="list-unstyled">
+            <li>
+              <a href="">
+                المستخدمين
+                <img src="../img/users-page/left-2-arrow.png" alt="arrow" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                الأدوار
+                <img src="../img/users-page/left-2-arrow.png" alt="arrow" />
+              </a>
+            </li>
+            <li>
+              <a href=""
+                >المجموعات
+                <img src="../img/users-page/left-2-arrow.png" alt="arrow" />
+              </a>
+            </li>
+            <li>
+              <a href=""
+                >شاشات النظام
+                <img src="../img/users-page/left-2-arrow.png" alt="arrow" />
+              </a>
+            </li>
+            <li><a href="">تتبع المستخدمين</a></li>
+          </ul>
+        </div>
+        <div class="new">
+          <button class="new-btn">
+            <img src="../img/users-page/new-btn.png" alt="new" />
+            جــــــديد
+          </button>
+          <div class="btn-group">
+            <button>
+              <img
+                class="btn-icon"
+                src="../img/users-page/new-f2.png"
+                alt="btn-icon"
+              />
+              جديد (F2)
+            </button>
+            <button>
+              <img
+                class="btn-icon"
+                src="../img/users-page/edit.png"
+                alt="btn-icon"
+              />
+              تعديل (F4)
+            </button>
+            <button>
+              <img
+                class="btn-icon"
+                src="../img/users-page/save.png"
+                alt="btn-icon"
+              />
+              حفظ (F10)
+            </button>
+            <button>
+              <img
+                class="btn-icon"
+                src="../img/users-page/delete.png"
+                alt="btn-icon"
+              />
+              حذف Del
+            </button>
+          </div>
+        </div>
+         <div class="users">
+            <h1 class="users-title">
+              <img src="../img/settings/settings.svg" alt="settings" />
+              الإعدادات
+            </h1>
+            <div class="done">
+              تم الحفظ بنجاح
+              <img src="../img/users-page/done.png" alt="done" />
+            </div>
+          </div>
+        <div class="settings-container">
+          <div class="settings-box">
+            <div class="sett-title-box">
+              <h3>المستخدمين والفرص</h3>
+              <input type="checkbox" name="" id="">
+            </div>
+           <div class="table-responsive  table-setting">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th class="screen-name" >
+                    اسم الشاشة
+                    
+                  </th>
+                  <th class="see">
+                    <span>رؤية</span>
+                    <img
+                      src="../img/settings/see.svg"
+                      alt="see"
+                    />
+                  </th>
+                  <th>
+                    <span>اضافة</span>
+                    <img src="../img/settings/add.svg" alt="add" />
+                  </th>
+                  <th>
+                     <span>تعديل</span>
+                    <img src="../img/settings/edit.svg" alt="edit" />
+                  </th>
+                  <th>
+                    <span>حذف</span>
+                    <img src="../img/settings/delete.svg" alt="delete" />
+                  </th>
+                  <th>
+                    الكل
+                    
+                  </th>
+                  
+                  
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>الوظائف الشاغرة</td>
+                  <td> <input type="checkbox" name="" id="" checked></td>
+                  <td> <input type="checkbox" name="" id="" checked></td>
+                  <td> <input type="checkbox" name="" id="" checked></td>
+                  <td> <input type="checkbox" name="" id=""></td>
+                  <td> <input type="checkbox" name="" id=""> </td>
+                
+                </tr>
+                <tr>
+                  <td> الباحثين عن وظائف</td>
+                  <td> <input type="checkbox" name="" id="" checked></td>
+                  <td> <input type="checkbox" name="" id="" checked></td>
+                  <td> <input type="checkbox" name="" id="" checked></td>
+                  <td> <input type="checkbox" name="" id=""></td>
+                  <td> <input type="checkbox" name="" id=""> </td>
+                
+                </tr>
+                <tr>
+                  <td>الشركات</td>
+                  <td> <input type="checkbox" name="" id="" checked></td>
+                  <td> <input type="checkbox" name="" id="" checked></td>
+                  <td> <input type="checkbox" name="" id="" checked></td>
+                  <td> <input type="checkbox" name="" id=""></td>
+                  <td> <input type="checkbox" name="" id=""> </td>
+                
+                </tr>
+                <tr>
+                  <td>خطط التوظيف</td>
+                  <td> <input type="checkbox" name="" id="" ></td>
+                  <td> <input type="checkbox" name="" id="" ></td>
+                  <td> <input type="checkbox" name="" id="" ></td>
+                  <td> <input type="checkbox" name="" id=""></td>
+                  <td> <input type="checkbox" name="" id=""> </td>
+                
+                </tr>
+                <tr>
+                  <td> نماذج الوظائف الشاغرة</td>
+                  <td> <input type="checkbox" name="" id="" checked></td>
+                  <td> <input type="checkbox" name="" id="" checked></td>
+                  <td> <input type="checkbox" name="" id="" checked></td>
+                  <td> <input type="checkbox" name="" id=""></td>
+                  <td> <input type="checkbox" name="" id=""> </td>
+                
+                </tr>
+
+                
+              </tbody>
+            </table>
+          </div>
+          </div>
+          <div class="settings-box">
+            <div class="sett-title-box screen-sit">
+              <h3 class=""> شاشات الموقع</h3>
+              <input type="checkbox" name="" id="">
+            </div>
+           <div class="table-responsive  table-setting">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th class="screen-name" >
+                    اسم الشاشة
+                    
+                  </th>
+                  <th class="see">
+                    <span>رؤية</span>
+                    <img
+                      src="../img/settings/see.svg"
+                      alt="see"
+                    />
+                  </th>
+                  <th>
+                    <span>اضافة</span>
+                    <img src="../img/settings/add.svg" alt="add" />
+                  </th>
+                  <th>
+                     <span>تعديل</span>
+                    <img src="../img/settings/edit.svg" alt="edit" />
+                  </th>
+                  <th>
+                    <span>حذف</span>
+                    <img src="../img/settings/delete.svg" alt="delete" />
+                  </th>
+                  <th>
+                    الكل
+                    
+                  </th>
+                  
+                  
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>رسائل اتصل بنا</td>
+                  <td> <input type="checkbox" name="" id="" checked></td>
+                  <td> <input type="checkbox" name="" id="" checked></td>
+                  <td> <input type="checkbox" name="" id="" checked></td>
+                  <td> <input type="checkbox" name="" id=""></td>
+                  <td> <input type="checkbox" name="" id=""> </td>
+                
+                </tr>
+                <tr>
+                  <td>القائمة البريدية</td>
+                  <td> <input type="checkbox" name="" id="" checked></td>
+                  <td> <input type="checkbox" name="" id="" checked></td>
+                  <td> <input type="checkbox" name="" id="" checked></td>
+                  <td> <input type="checkbox" name="" id=""></td>
+                  <td> <input type="checkbox" name="" id=""> </td>
+                
+                </tr>
+                <tr>
+                  <td>الإعدادات</td>
+                  <td> <input type="checkbox" name="" id="" checked></td>
+                  <td> <input type="checkbox" name="" id="" checked></td>
+                  <td> <input type="checkbox" name="" id="" checked></td>
+                  <td> <input type="checkbox" name="" id=""></td>
+                  <td> <input type="checkbox" name="" id=""> </td>
+                
+                </tr>
+                <tr>
+                  <td>إرسال بريد</td>
+                  <td> <input type="checkbox" name="" id="" ></td>
+                  <td> <input type="checkbox" name="" id="" ></td>
+                  <td> <input type="checkbox" name="" id="" ></td>
+                  <td> <input type="checkbox" name="" id=""></td>
+                  <td> <input type="checkbox" name="" id=""> </td>
+                
+                </tr>
+                <tr>
+                  <td>الصفحات الثابتة</td>
+                  <td> <input type="checkbox" name="" id="" checked></td>
+                  <td> <input type="checkbox" name="" id="" checked></td>
+                  <td> <input type="checkbox" name="" id="" checked></td>
+                  <td> <input type="checkbox" name="" id=""></td>
+                  <td> <input type="checkbox" name="" id=""> </td>
+                
+                </tr>
+
+                
+              </tbody>
+            </table>
+            
+          </div>
+          <div class="submit-form">
+                <button class="save">حفظ</button>
+                <button class="cancle">الغاء</button>
+              </div>
+          </div>
+        </div>
+      </section>
+      <!-- End User Content -->
+    </main>
+    <!-- End Page Content -->
+
+    <!-- Start Footer -->
+    <footer>
+      <p>جميع الحقوق محفوظة لدى شركة قمة للحلول الرقمية</p>
+      <img src="../img/users-page/logo.png" alt="logo">
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Bootstrap -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <!-- Script js -->
+    <script src="../js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2349" data-name="Rectangle 2349" width="24" height="24" transform="translate(1077 237.582)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="البيانات_الشخصية" data-name="البيانات الشخصية" transform="translate(-1077 -237.582)" clip-path="url(#clip-path)">
+    <path id="ic_person_pin_24px" d="M18.8,2H4.975A1.974,1.974,0,0,0,3,3.975V17.8a1.974,1.974,0,0,0,1.975,1.975H8.924l2.962,2.962,2.962-2.962H18.8A1.98,1.98,0,0,0,20.772,17.8V3.975A1.98,1.98,0,0,0,18.8,2ZM11.886,5.258A2.666,2.666,0,1,1,9.22,7.924,2.667,2.667,0,0,1,11.886,5.258ZM17.81,15.822H5.962v-.889c0-1.975,3.949-3.061,5.924-3.061s5.924,1.086,5.924,3.061Z" transform="translate(1076.688 237.051)" fill="#5b78a2"/>
+  </g>
+</svg>

@@ -1,0 +1,68 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- BootStrap  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+    <!-- Style Link -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Style Ltr -->
+    <!-- <link rel="stylesheet" href="./css_ltr/style.css"> -->
+
+    <!-- Title Icon -->
+    <link rel="icon" href="./img/fav_title.svg" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="login-page">
+      <div class="container-fluid">
+        <!-- Start Logo -->
+        <div class="logo-box">
+          <img class="logo" src="./img/logo.svg" alt="logo" />
+        </div>
+        <!-- End Logo -->
+
+        <!-- Start Login Form -->
+        <h1 class="login-title">مرحـــــبًا بك في قـــــمة</h1>
+        <div class="form-box">
+          <div class="error-box">
+            <div class="error-msg">
+              <img class="waring-icon" src="./img/login-page/warning-icon.png" alt="waring-icon">
+              <p>خطأ في إسم المستخدم أو كلمة المرور</p>
+              <img class="close-icon" src="./img/login-page/close-icon.png" alt="close-icon">
+            </div>
+          </div>
+          <p class="form-desc">دخول بواسطة إسم المستخدم وكلمة المرور</p>
+          <form action="">
+            <div class="input-box">
+              <input type="text" name="name" id="name" placeholder="إسم المستخدم" required>
+              <p class="req-msg">اسم المستخدم مطلوب*</p>
+              <img class="input-icon" src="./img/login-page/user-icon.png" alt="user-icon">
+            </div>
+
+            <div class="input-box">
+              <input type="password" name="password" id="password" placeholder="كلمة المرور" required>
+              <p class="req-msg">كلمةالمرور مطلوبة*</p>
+              <img class="input-icon" src="./img/login-page/passowrd-icon.png" alt="passowrd-icon">
+            </div>
+
+            <input class="submit-btn" type="submit" value="دخول">
+          </form>
+        </div>
+        <!-- End Login Form -->
+      </div>
+    </div>
+
+    <!-- Bootstrap -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- Script js -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2352" data-name="Rectangle 2352" width="24" height="24" transform="translate(1026.818 14)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="eye" transform="translate(-1026.818 -14)" clip-path="url(#clip-path)">
+    <path id="ic_remove_red_eye_24px" d="M10.47,4.5A10.181,10.181,0,0,0,1,10.957a10.173,10.173,0,0,0,18.939,0A10.181,10.181,0,0,0,10.47,4.5Zm0,10.761a4.3,4.3,0,1,1,4.3-4.3A4.306,4.306,0,0,1,10.47,15.261Zm0-6.887a2.583,2.583,0,1,0,2.583,2.583A2.579,2.579,0,0,0,10.47,8.374Z" transform="translate(1028.818 15.5)" fill="#5b78a2"/>
+  </g>
+</svg>

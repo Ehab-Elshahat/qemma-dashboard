@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2348" data-name="Rectangle 2348" width="24" height="24" transform="translate(276.006 3575.383)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="lock" transform="translate(-276.006 -3575.383)">
+    <g id="Lock-2" data-name="Lock" clip-path="url(#clip-path)">
+      <g id="Group_5448" data-name="Group 5448" transform="translate(4.367 -2.769)">
+        <path id="ic_enhanced_encryption_24px" d="M17.38,7.69h-.956V5.779a4.779,4.779,0,0,0-9.557,0V7.69H5.911A1.917,1.917,0,0,0,4,9.6v9.557a1.917,1.917,0,0,0,1.911,1.911H17.38a1.917,1.917,0,0,0,1.911-1.911V9.6A1.917,1.917,0,0,0,17.38,7.69Zm-8.7-1.911a2.963,2.963,0,0,1,5.926,0V7.69H8.683Z" transform="translate(272 3579)" fill="#5b78a2"/>
+        <path id="ic_check_box_24px" d="M8.342,13.546,5,10.2l.943-.943,2.4,2.393L13.416,6.58l.943.949Z" transform="translate(273.867 3583.117)" fill="#f5f6ff" opacity="0.88"/>
+      </g>
+    </g>
+  </g>
+</svg>

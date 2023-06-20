@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2356" data-name="Rectangle 2356" width="16" height="16" transform="translate(498 296)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="حذف" transform="translate(-498 -296)" clip-path="url(#clip-path)">
+    <path id="ic_delete_forever_24px" d="M5.787,15.587A1.578,1.578,0,0,0,7.36,17.161h6.294a1.578,1.578,0,0,0,1.573-1.573V6.147H5.787Zm1.935-5.6L8.831,8.877l1.676,1.668,1.668-1.668,1.109,1.109-1.668,1.668,1.668,1.668-1.109,1.109-1.668-1.668L8.839,14.431,7.73,13.321,9.4,11.654Zm5.538-6.2L12.474,3H8.54l-.787.787H5V5.36H16.014V3.787Z" transform="translate(495 294)" fill="#fff" opacity="0.8"/>
+  </g>
+</svg>

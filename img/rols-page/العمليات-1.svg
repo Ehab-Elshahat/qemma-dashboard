@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2339" data-name="Rectangle 2339" width="16" height="16" transform="translate(517.818 368)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="العمليات" transform="translate(-517.818 -368)" clip-path="url(#clip-path)">
+    <g id="Group_82" data-name="Group 82" transform="translate(520.497 369.011)" opacity="0.64">
+      <g id="Group_5377" data-name="Group 5377" transform="translate(0)">
+        <path id="ic_touch_app_24px" d="M13.271,11.9l-2.745-1.35a.86.86,0,0,0-.327-.066h-.46V6.9a.907.907,0,0,0-1.814,0v6.418l-2.074-.43a1.069,1.069,0,0,0-.145-.018.681.681,0,0,0-.478.2l-.478.478,2.987,2.952a.916.916,0,0,0,.641.263h4.106a.877.877,0,0,0,.871-.765l.454-3.149a.854.854,0,0,0-.538-.944Z" transform="translate(-4.75 -3.24)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="1"/>
+        <path id="ic_touch_app_24px-2" data-name="ic_touch_app_24px" d="M8.692,9.972V6.808a2.115,2.115,0,1,1,4.231,0V9.972A3.807,3.807,0,1,0,7,6.808s0,0,0,.121A3.742,3.742,0,0,0,8.692,9.972Z" transform="translate(-6.677 -3)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

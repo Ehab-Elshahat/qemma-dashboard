@@ -1,0 +1,55 @@
+
+.see-users-btns .new-btn.edit {
+  background: #fff;
+  color: #15C9A2;
+  box-shadow: none;
+  border: 1px solid #15C9A2;
+  margin-left: 10px;
+}
+
+@media(max-width:900px) {
+  .see-users-btns .new-btn.edit {
+   display: none;
+  }
+}
+.see-users .inp-box {
+  background-color: #fff;
+  padding: 10px 25px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+ 
+}
+.see-users .inp-box .le {
+  color: #3266B0;
+  font-size: 12px;
+  font-weight: bold;
+}
+.goto-menu {
+  margin: 20px 0 10px ;
+  text-align: center;
+}
+.goto-menu button {
+  min-width: 250px;
+  font: 16px;
+  background-color: #3266B0;
+  color: #FFFBFB;
+  border: 1px solid #3266B0;
+  padding: 10px 30px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+}
+.goto-menu button:hover {
+  background-color: #fff;
+  color: #3266B0;
+}

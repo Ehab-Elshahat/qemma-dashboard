@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2323" data-name="Rectangle 2323" width="16" height="16" transform="translate(114.032 0.431)" fill="#6fbcf0"/>
+    </clipPath>
+  </defs>
+  <g id="الحالة" transform="translate(-114.032 -0.431)" clip-path="url(#clip-path)">
+    <g id="Group_5447" data-name="Group 5447" transform="translate(0.118 -0.5)">
+      <path id="ic_assignment_turned_in_24px" d="M14.2,2.4H11.274a2.092,2.092,0,0,0-3.948,0H4.4A1.4,1.4,0,0,0,3,3.8v9.8A1.4,1.4,0,0,0,4.4,15h9.8a1.4,1.4,0,0,0,1.4-1.4V3.8A1.4,1.4,0,0,0,14.2,2.4Z" transform="translate(112.914 0.931)" fill="none" stroke="#fff" stroke-width="1"/>
+      <path id="ic_assignment_turned_in_24px-2" data-name="ic_assignment_turned_in_24px" d="M7.9,12.2,5.1,9.4l.987-.987L7.9,10.219l4.613-4.613L13.5,6.6Z" transform="translate(112.914 0.931)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

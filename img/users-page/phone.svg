@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2328" data-name="Rectangle 2328" width="16" height="16" transform="translate(683.032 0.431)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="الجوال" transform="translate(-683.032 -0.431)" clip-path="url(#clip-path)">
+    <path id="ic_stay_primary_portrait_24px" d="M11.921,1.006,6.157,1A1.151,1.151,0,0,0,5.01,2.153V12.528a1.151,1.151,0,0,0,1.147,1.153h5.764a1.156,1.156,0,0,0,1.153-1.153V2.153A1.151,1.151,0,0,0,11.921,1.006Zm0,11.714H6.157V1.961h5.764Z" transform="translate(681.925 0.992)" fill="#fff" stroke="#fff" stroke-width="1"/>
+  </g>
+</svg>
