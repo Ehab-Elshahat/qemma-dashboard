@@ -90,7 +90,10 @@ body.overlay::before {
   position: relative;
   margin-top: 5px;
 }
-
+.nav-link.notification:focus {
+  outline: none;
+  box-shadow: none;
+}
 .nottifications-icon {
   width: 16px;
 }
@@ -131,6 +134,7 @@ body.overlay::before {
 }
 @media (max-width: 900px) {
   .navbar-expand-md .navbar-nav .dropdown-menu.notification {
+    min-width: 250px;
     position: absolute;
     right: 50%;
     transform: translateX(0);
